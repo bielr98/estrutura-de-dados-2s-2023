@@ -2,24 +2,25 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
-//logica do profesor
 
-int verificaNumeroPrimo(int n){
-    int ret = 0;
-    if (n % 2 == 0){
-        return = 0;
-    }
-while (cont < n){
-    if(n % cont==0){
-        return 0;
-    }   
-    cont += 2;
-    return 1;
-    }
-}
+//logica do professor
+
+// int verificaNumeroPrimo(int n){
+//     int ret = 0;
+//     if (n % 2 == 0){
+//         return = 0;
+//     }
+// while (cont < n){
+//     if(n % cont==0){
+//         return 0;
+//     }   
+//     cont += 2;
+//     return 1;
+//     }
+// }
 
 
-//logica do GPT
+//Nova logica
 bool ehPrimo(int n) {
     if (n <= 1) {
         return false;
@@ -42,11 +43,20 @@ bool ehPrimo(int n) {
 
 
 int main(){
-    int n = 123131231;
-    printf("n = %d  \n", n);
-    printf("O numero %d eh primo? %d\n", n, ehPrimo(n));
+    int n = 0;
 
+    printf("Insira um numero Para ver se e primo?\n");
+    scanf("%i", &n);
+    fflush(stdin);
+    printf("n = %d  ", n);
+    printf("O numero %d eh primo?\n", n);
 
+if (ehPrimo(n) == 1) {
+        printf("Sim");
+
+    }else {
+        printf("Nao");
+    }
     return 0;
 
 
