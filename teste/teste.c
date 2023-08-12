@@ -7,5 +7,7 @@ int main (int argc, char* argv[]){
     return 0;
 }
 
-
-//compilar gcc nomedoarquivo.c -o nomeQueVoceQuerNoArquivoExecutavel
+//navegar no terminal cd
+//limpar terminal clear
+//compilar: gcc nomedoarquivo.c -o nomeQueVoceQuerNoArquivoExecutavel
+//./nomeQueVoceQuerNoArquivoExecutavel  ira executar
