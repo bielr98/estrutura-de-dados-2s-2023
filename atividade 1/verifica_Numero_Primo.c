@@ -23,7 +23,15 @@ int main(int argc, char *argv[]) {
     int numero = atoi(argv[1]);//converter strings em inteiros
     int resultado = verificaNumeroPrimo(numero);
 
-    printf("%d\n", resultado);
+    printf("%d\n", numero);
+    printf("Resultado: %d\n", resultado);
+    
+
+    if (resultado == 1){
+        printf("o Numero e primo:");
+    }else{
+        printf("O numero nao é primo");
+    }
 
     return 0;
 }
