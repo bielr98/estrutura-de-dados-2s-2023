@@ -14,7 +14,8 @@ int soma_array(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {5, 7, 9, 6};
-    printf("%d\n", soma_array(arr, 4));
+    //array com os numeros
+    int arr[] = {5, 7, 9, 6, 8, 12};
+    printf("%d\n", soma_array(arr, 6));
     return 0;
 }
