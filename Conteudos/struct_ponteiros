@@ -1,0 +1,93 @@
+// alocamento dinamico de memoria
+
+// Malloc:
+
+
+//---------------------------------------------------------------
+
+// Calloc:
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main() {
+//     int *ptr;
+//     int num = 5;
+
+//     ptr = (int *)calloc(num, sizeof(int));
+
+//     if (ptr == NULL) {
+//         printf("Falha na alocação de memória.");
+//         return 1;
+//     }
+
+//     for (int i = 0; i < num; i++) {
+//         ptr[i] = i + 1;
+//         printf("%d ", ptr[i]);
+//     }
+
+//     free(ptr);
+//     return 0;
+// }
+//---------------------------------------------------------------
+
+
+// MALLOC (Memory Alocation)
+// REALOC (Memory REALOCATION)
+// FREE
+// #include <stdio.h>
+// #include <stdlib.h>
+// int main() {
+// //cria ponteiro
+//     int *ponteiro;
+//     int numero = 5;
+
+//     ponteiro = (int *)malloc(numero * sizeof(int));
+
+//     if (ponteiro == NULL) {
+//         printf("Falha na alocação de memória.");
+//         return 1;
+//     }
+//     for (int i = 0; i < numero; i++) {
+//         ponteiro[i] = i + 1;
+//         printf("%d ", ponteiro[i]);
+//     }
+
+ // Realoca para o dobro do tamanho
+    
+//     ponteiro = (int *)realloc(ponteiro, 2 * numero * sizeof(int));
+
+//     if (ponteiro == NULL) {
+//         printf("Falha na realocação de memória.");
+//         return 1;
+//     }
+
+//     for (int i = numero; i < 2 * numero; i++) {
+//         ponteiro[i] = i + 1;
+//         printf("%d ", ponteiro[i]);
+//     }
+
+//     free(ponteiro);
+//     return 0;
+// }
+//-----------------------------------------------------------------
+
+Realoc:
+
+Free:
+
+
+#include <stdio.h>
+#include <stdlib.h>
+typedef strut Ponto{
+    int x;
+    int y;
+} Ponto;
+
+int main(int argc, char* argv) {
+    int a = 3;
+    int b = a;
+    int* p = &a;
+    
+    P ponto;
+   
+}
