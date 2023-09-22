@@ -1,0 +1,9 @@
+arara
+babuino
+cachorro
+cadeira
+gato
+lapis
+sapato
+tubarao
+zebra
