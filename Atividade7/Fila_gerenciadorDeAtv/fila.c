@@ -16,6 +16,8 @@ int estaVazia(Fila* fila) {
 
 // Função para adicionar uma nova tarefa à fila
 void adicionarTarefa(Fila* fila, const char* descricao) {
+    //malloc aloca um bloco de memória com um tamanho específico 
+    //e retornar um ponteiro para o início desse bloco de memória.
     Tarefa* novaTarefa = (Tarefa*)malloc(sizeof(Tarefa)); // Aloca memória para uma nova tarefa
     if (novaTarefa == NULL) {
         fprintf(stderr, "Erro: Falha na alocação de memória para a tarefa.\n");

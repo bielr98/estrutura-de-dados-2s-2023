@@ -42,6 +42,6 @@ int pilhaVazia(Pilha *p) {
 // Função para mostrar o conteúdo da pilha
 void mostrarPilha(Pilha *p) {
     for (int i = p->topo; i >= 0; i--) { // Itera da parte superior para a base da pilha
-        printf("circulo %d, ", p->elementos[i]); // Imprime cada elemento na pilha
+        printf("Disco %d, ", p->elementos[i]); // Imprime cada elemento na pilha
     }
 }

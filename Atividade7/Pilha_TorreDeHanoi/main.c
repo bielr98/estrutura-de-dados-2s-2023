@@ -24,6 +24,13 @@ int main() {
 
     int numDiscos;
 
+    //Regras
+    printf("TORRE DE HANOI \n");
+    printf("Regras: \n");
+    printf("-Movimentar uma só peça (disco) de cada vez. \n");
+    printf("-Uma peça maior não pode ficar acima de uma menor. \n");
+    printf("-Não é permitido movimentar uma peça que esteja abaixo de outra. \n");
+
     // Solicita ao usuário o número de discos
     printf("Digite o número de discos: ");
     scanf("%d", &numDiscos);
